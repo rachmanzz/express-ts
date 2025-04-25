@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "tsx --watch ./runner/start.ts",
     "build": "rollup -c",
+    "start": "node ./dist/index.mjs",
     "lint": "eslint ./src"
   },
   "dependencies": {
