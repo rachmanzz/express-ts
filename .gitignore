@@ -11,3 +11,5 @@
 
 #!.yarn/cache
 .pnp.*
+.vdvode
+node_modules

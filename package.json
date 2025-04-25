@@ -1,4 +1,21 @@
 {
   "name": "express-ts",
-  "packageManager": "yarn@4.5.2"
+  "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "dev": "tsx --watch ./runner/start.ts",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "eslint": "^9.25.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0"
+  },
+  "license": "MIT"
 }
