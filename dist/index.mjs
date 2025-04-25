@@ -1,0 +1,1 @@
+import e from"http";import r from"express";const o=r();o.get("/",((e,r)=>{r.send("helo")}));const t=function(e){const r=parseInt(e,10);return!isNaN(r)&&r>=0?r:8e3}(process.env.POST??"8000");e.createServer(o).listen(t),console.log("server run on port",t);
